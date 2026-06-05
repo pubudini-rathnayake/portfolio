@@ -6,7 +6,7 @@ export const portfolioData = {
     "I build intelligent, multilingual web experiences — from pixel to model.",
   email: "pubudinithamali@gmail.com",
   github: "https://github.com/pubudini-rathnayake",
-  linkedin: "www.linkedin.com/in/pubudini-rathnayake-388b062b7",
+  linkedin: "https://www.linkedin.com/in/pubudini-rathnayake-388b062b7",
   location: "Sri Lanka",
 
   about: `I'm a Full Stack Developer currently pursuing a Bachelor's degree 

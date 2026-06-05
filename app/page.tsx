@@ -1,12 +1,19 @@
 import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import Skills from "@/components/Skills";
+import Projects from "@/components/Projects";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
     <main>
       <Navbar />
-      <div className="h-screen flex items-center justify-center">
-        <p className="text-white">Hero coming soon...</p>
-      </div>
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
     </main>
   );
 }

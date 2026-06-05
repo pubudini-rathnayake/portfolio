@@ -33,10 +33,10 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-
         {/* Logo */}
-        
-          <a href="#"
+
+        <a
+          href="#"
           className="text-white font-semibold text-lg tracking-tight hover:text-indigo-400 transition-colors"
         >
           {portfolioData.name.split(" ")[0]}
@@ -47,8 +47,8 @@ export default function Navbar() {
         <ul className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <li key={link.href}>
-              
-                <a href={link.href}
+              <a
+                href={link.href}
                 className="text-sm text-[#a0a0a0] hover:text-white transition-colors duration-200"
               >
                 {link.label}
@@ -56,8 +56,8 @@ export default function Navbar() {
             </li>
           ))}
           <li>
-            
-              <a href={portfolioData.github}
+            <a
+              href={portfolioData.github}
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm px-4 py-2 border border-indigo-500 text-indigo-400 rounded-full hover:bg-indigo-500 hover:text-white transition-all duration-200"
@@ -102,8 +102,8 @@ export default function Navbar() {
           <ul className="flex flex-col gap-4">
             {navLinks.map((link) => (
               <li key={link.href}>
-                
-                  <a href={link.href}
+                <a
+                  href={link.href}
                   onClick={() => setMenuOpen(false)}
                   className="text-[#a0a0a0] hover:text-white transition-colors"
                 >
