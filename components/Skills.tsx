@@ -80,6 +80,37 @@ export default function Skills() {
             </motion.div>
           ))}
         </div>
+
+        {/* Languages & Certifications */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.3 }}
+          className="mt-12"
+        >
+          <h3 className="text-white font-semibold text-xl mb-6">
+            Languages & Certifications
+          </h3>
+          <div className="grid md:grid-cols-3 gap-4">
+            {portfolioData.languages.map((lang) => (
+              <div
+                key={lang.name}
+                className="p-5 rounded-2xl border border-white/10 bg-white/5 hover:border-indigo-500/30 transition-all duration-300"
+              >
+                <div className="flex items-center justify-between mb-2">
+                  <p className="text-white font-medium">{lang.name}</p>
+                  <span className="text-xs px-2.5 py-1 rounded-full border border-indigo-500/20 text-indigo-400 bg-indigo-500/5">
+                    {lang.level}
+                  </span>
+                </div>
+                {lang.cert && (
+                  <p className="text-[#606060] text-sm">{lang.cert}</p>
+                )}
+              </div>
+            ))}
+          </div>
+        </motion.div>
       </div>
     </section>
   );

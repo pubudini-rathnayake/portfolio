@@ -31,9 +31,10 @@ export default function Contact() {
             transition={{ duration: 0.5, delay: 0.1 }}
           >
             <p className="text-[#a0a0a0] text-lg leading-relaxed mb-8">
-              I&apos;m currently open to new opportunities — whether it&apos;s a full-time
-              role, freelance project, or just a interesting conversation about
-              NLP and multilingual AI. My inbox is always open!
+              I&apos;m currently open to new opportunities — whether it&apos;s a
+              full-time role, freelance project, or just an interesting
+              conversation about NLP and multilingual AI. My inbox is always
+              open!
             </p>
 
             {/* Contact Links */}
