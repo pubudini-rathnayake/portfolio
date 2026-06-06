@@ -54,6 +54,9 @@ export const portfolioData = {
       "MongoDB",
       "Microsoft SQL Server",
       "Netlify",
+      "IntelliJ IDEA",
+      "Pycharm",
+      "Microsoft Visual Studio Code",
     ],
   },
 
