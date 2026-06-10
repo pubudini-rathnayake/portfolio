@@ -57,6 +57,8 @@ export const portfolioData = {
       "IntelliJ IDEA",
       "Pycharm",
       "Microsoft Visual Studio Code",
+      "Microsoft Azure",
+      "Postman",
     ],
   },
 
