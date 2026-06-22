@@ -15,7 +15,7 @@ export default function About() {
           transition={{ duration: 0.5 }}
           className="mb-16"
         >
-          <p className="text-indigo-400 text-sm font-medium tracking-widest uppercase mb-3">
+          <p className="text-blue-400 text-sm font-medium tracking-widest uppercase mb-3">
             Who I Am
           </p>
           <h2 className="text-4xl md:text-5xl font-bold text-white">
@@ -40,7 +40,7 @@ export default function About() {
                 href={portfolioData.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-6 py-2.5 border border-indigo-500/50 text-indigo-400 rounded-full text-sm hover:bg-indigo-500/10 transition-all duration-200"
+                className="px-6 py-2.5 border border-blue-500/50 text-blue-400 rounded-full text-sm hover:bg-blue-500/10 transition-all duration-200"
               >
                 GitHub
               </a>
@@ -65,8 +65,8 @@ export default function About() {
             className="grid grid-cols-1 gap-4"
           >
             {/* Education */}
-            <div className="p-6 rounded-2xl border border-white/10 bg-white/5 hover:border-indigo-500/30 transition-all duration-300">
-              <p className="text-indigo-400 text-xs font-medium tracking-widest uppercase mb-2">
+            <div className="p-6 rounded-2xl border border-white/10 bg-white/5 hover:border-blue-500/30 transition-all duration-300">
+              <p className="text-blue-400 text-xs font-medium tracking-widest uppercase mb-2">
                 Education
               </p>
               <p className="text-white font-medium">
@@ -78,8 +78,8 @@ export default function About() {
             </div>
 
             {/* Passion */}
-            <div className="p-6 rounded-2xl border border-white/10 bg-white/5 hover:border-indigo-500/30 transition-all duration-300">
-              <p className="text-indigo-400 text-xs font-medium tracking-widest uppercase mb-2">
+            <div className="p-6 rounded-2xl border border-white/10 bg-white/5 hover:border-blue-500/30 transition-all duration-300">
+              <p className="text-blue-400 text-xs font-medium tracking-widest uppercase mb-2">
                 Passion
               </p>
               <p className="text-white font-medium">
@@ -92,8 +92,8 @@ export default function About() {
             </div>
 
             {/* Location */}
-            <div className="p-6 rounded-2xl border border-white/10 bg-white/5 hover:border-indigo-500/30 transition-all duration-300">
-              <p className="text-indigo-400 text-xs font-medium tracking-widest uppercase mb-2">
+            <div className="p-6 rounded-2xl border border-white/10 bg-white/5 hover:border-blue-500/30 transition-all duration-300">
+              <p className="text-blue-400 text-xs font-medium tracking-widest uppercase mb-2">
                 Location
               </p>
               <p className="text-white font-medium">{portfolioData.location}</p>

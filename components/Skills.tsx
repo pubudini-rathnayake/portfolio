@@ -43,7 +43,7 @@ export default function Skills() {
           transition={{ duration: 0.5 }}
           className="mb-16"
         >
-          <p className="text-indigo-400 text-sm font-medium tracking-widest uppercase mb-3">
+          <p className="text-blue-400 text-sm font-medium tracking-widest uppercase mb-3">
             What I Work With
           </p>
           <h2 className="text-4xl md:text-5xl font-bold text-white">Skills</h2>
@@ -58,7 +58,7 @@ export default function Skills() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="p-6 rounded-2xl border border-white/10 bg-white/5 hover:border-indigo-500/30 hover:bg-white/8 transition-all duration-300 group"
+              className="p-6 rounded-2xl border border-white/10 bg-white/5 hover:border-blue-500/30 hover:bg-white/8 transition-all duration-300 group"
             >
               {/* Category Header */}
               <div className="flex items-center gap-3 mb-5">
@@ -71,7 +71,7 @@ export default function Skills() {
                 {portfolioData.skills[category.key].map((skill) => (
                   <span
                     key={skill}
-                    className="px-3 py-1 text-sm rounded-full border border-white/10 text-[#a0a0a0] bg-white/5 group-hover:border-indigo-500/20 group-hover:text-white transition-all duration-300"
+                    className="px-3 py-1 text-sm rounded-full border border-white/10 text-[#a0a0a0] bg-white/5 group-hover:border-blue-500/20 group-hover:text-white transition-all duration-300"
                   >
                     {skill}
                   </span>
@@ -96,11 +96,11 @@ export default function Skills() {
             {portfolioData.languages.map((lang) => (
               <div
                 key={lang.name}
-                className="p-5 rounded-2xl border border-white/10 bg-white/5 hover:border-indigo-500/30 transition-all duration-300"
+                className="p-5 rounded-2xl border border-white/10 bg-white/5 hover:border-blue-500/30 transition-all duration-300"
               >
                 <div className="flex items-center justify-between mb-2">
                   <p className="text-white font-medium">{lang.name}</p>
-                  <span className="text-xs px-2.5 py-1 rounded-full border border-indigo-500/20 text-indigo-400 bg-indigo-500/5">
+                  <span className="text-xs px-2.5 py-1 rounded-full border border-blue-500/20 text-blue-400 bg-blue-500/5">
                     {lang.level}
                   </span>
                 </div>

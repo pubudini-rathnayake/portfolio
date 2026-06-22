@@ -15,7 +15,7 @@ export default function Contact() {
           transition={{ duration: 0.5 }}
           className="mb-16"
         >
-          <p className="text-indigo-400 text-sm font-medium tracking-widest uppercase mb-3">
+          <p className="text-blue-400 text-sm font-medium tracking-widest uppercase mb-3">
             Get In Touch
           </p>
           <h2 className="text-4xl md:text-5xl font-bold text-white">Contact</h2>
@@ -41,9 +41,9 @@ export default function Contact() {
             <div className="flex flex-col gap-4">
               <a
                 href={`mailto:${portfolioData.email}`}
-                className="flex items-center gap-4 p-4 rounded-2xl border border-white/10 bg-white/5 hover:border-indigo-500/30 hover:bg-white/8 transition-all duration-300 group"
+                className="flex items-center gap-4 p-4 rounded-2xl border border-white/10 bg-white/5 hover:border-blue-500/30 hover:bg-white/8 transition-all duration-300 group"
               >
-                <div className="w-10 h-10 rounded-full bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center text-indigo-400 group-hover:bg-indigo-500/20 transition-all duration-300">
+                <div className="w-10 h-10 rounded-full bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-blue-400 group-hover:bg-blue-500/20 transition-all duration-300">
                   ✉
                 </div>
                 <div>
@@ -58,9 +58,9 @@ export default function Contact() {
                 href={portfolioData.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-4 p-4 rounded-2xl border border-white/10 bg-white/5 hover:border-indigo-500/30 hover:bg-white/8 transition-all duration-300 group"
+                className="flex items-center gap-4 p-4 rounded-2xl border border-white/10 bg-white/5 hover:border-blue-500/30 hover:bg-white/8 transition-all duration-300 group"
               >
-                <div className="w-10 h-10 rounded-full bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center text-indigo-400 group-hover:bg-indigo-500/20 transition-all duration-300">
+                <div className="w-10 h-10 rounded-full bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-blue-400 group-hover:bg-blue-500/20 transition-all duration-300">
                   ⌨
                 </div>
                 <div>
@@ -75,9 +75,9 @@ export default function Contact() {
                 href={portfolioData.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-4 p-4 rounded-2xl border border-white/10 bg-white/5 hover:border-indigo-500/30 hover:bg-white/8 transition-all duration-300 group"
+                className="flex items-center gap-4 p-4 rounded-2xl border border-white/10 bg-white/5 hover:border-blue-500/30 hover:bg-white/8 transition-all duration-300 group"
               >
-                <div className="w-10 h-10 rounded-full bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center text-indigo-400 group-hover:bg-indigo-500/20 transition-all duration-300">
+                <div className="w-10 h-10 rounded-full bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-blue-400 group-hover:bg-blue-500/20 transition-all duration-300">
                   in
                 </div>
                 <div>
@@ -109,7 +109,7 @@ export default function Contact() {
                 <input
                   type="text"
                   placeholder="Your name"
-                  className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-[#404040] focus:outline-none focus:border-indigo-500/50 transition-colors duration-200"
+                  className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-[#404040] focus:outline-none focus:border-blue-500/50 transition-colors duration-200"
                 />
               </div>
               <div>
@@ -119,7 +119,7 @@ export default function Contact() {
                 <input
                   type="email"
                   placeholder="your@email.com"
-                  className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-[#404040] focus:outline-none focus:border-indigo-500/50 transition-colors duration-200"
+                  className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-[#404040] focus:outline-none focus:border-blue-500/50 transition-colors duration-200"
                 />
               </div>
               <div>
@@ -129,13 +129,13 @@ export default function Contact() {
                 <textarea
                   rows={4}
                   placeholder="Your message..."
-                  className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-[#404040] focus:outline-none focus:border-indigo-500/50 transition-colors duration-200 resize-none"
+                  className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-[#404040] focus:outline-none focus:border-blue-500/50 transition-colors duration-200 resize-none"
                 />
               </div>
 
               <a
                 href={`mailto:${portfolioData.email}`}
-                className="w-full py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl font-medium transition-all duration-200 hover:shadow-lg hover:shadow-indigo-500/25 text-center"
+                className="w-full py-3 bg-blue-600 hover:bg-blue-500 text-white rounded-xl font-medium transition-all duration-200 hover:shadow-lg hover:shadow-indigo-500/25 text-center"
               >
                 Send Message
               </a>

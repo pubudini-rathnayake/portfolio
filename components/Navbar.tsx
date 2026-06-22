@@ -28,7 +28,7 @@ export default function Navbar() {
       transition={{ duration: 0.6, ease: "easeOut" }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-[#0a0a0a]/90 backdrop-blur-md border-b border-white/10"
+          ? "bg-[#020817]/90 backdrop-blur-md border-b border-white/10"
           : "bg-transparent"
       }`}
     >
@@ -37,10 +37,10 @@ export default function Navbar() {
 
         <a
           href="#"
-          className="text-white font-semibold text-lg tracking-tight hover:text-indigo-400 transition-colors"
+          className="text-white font-semibold text-lg tracking-tight hover:text-blue-400 transition-colors"
         >
           {portfolioData.name.split(" ")[0]}
-          <span className="text-indigo-400">.</span>
+          <span className="text-blue-400">.</span>
         </a>
 
         {/* Desktop Links */}
@@ -60,7 +60,7 @@ export default function Navbar() {
               href={portfolioData.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm px-4 py-2 border border-indigo-500 text-indigo-400 rounded-full hover:bg-indigo-500 hover:text-white transition-all duration-200"
+              className="text-sm px-4 py-2 border border-blue-500 text-blue-400 rounded-full hover:bg-blue-500 hover:text-white transition-all duration-200"
             >
               GitHub
             </a>
@@ -97,7 +97,7 @@ export default function Navbar() {
         <motion.div
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
-          className="md:hidden bg-[#0a0a0a]/95 backdrop-blur-md border-t border-white/10 px-6 py-4"
+          className="md:hidden bg-[#020817]/95 backdrop-blur-md border-t border-white/10 px-6 py-4"
         >
           <ul className="flex flex-col gap-4">
             {navLinks.map((link) => (
@@ -116,7 +116,7 @@ export default function Navbar() {
                 href={portfolioData.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-indigo-400 hover:text-white transition-colors"
+                className="text-blue-400 hover:text-white transition-colors"
                 onClick={() => setMenuOpen(false)}
               >
                 GitHub ↗

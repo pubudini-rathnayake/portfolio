@@ -1,5 +1,6 @@
 "use client";
 
+import PixelCharacter from "@/components/PixelCharacter";
 import { motion } from "framer-motion";
 import { portfolioData } from "@/data/portfolio";
 
@@ -8,18 +9,20 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-[#0a0a0a]">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-indigo-600/10 rounded-full blur-3xl" />
-        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-600/10 rounded-full blur-3xl" />
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl" />
+        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-cyan-600/10 rounded-full blur-3xl" />
       </div>
 
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-6 flex flex-col items-center text-center">
+        {/* Pixel Character */}
+        <PixelCharacter />
         {/* Badge */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="mb-6 px-4 py-1.5 rounded-full border border-indigo-500/30 bg-indigo-500/10 text-indigo-400 text-sm"
+          className="mb-6 px-4 py-1.5 rounded-full border border-blue-500/30 bg-blue-500/10 text-blue-400 text-sm"
         >
           👋 Available for opportunities
         </motion.div>
@@ -29,10 +32,10 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
-          className="text-5xl md:text-7xl font-bold text-white mb-4 tracking-tight"
+          className="text-5xl md:text-7xl font-bold text-white mb-4 tracking-tight glow-blue"
         >
           {portfolioData.name.split(" ")[0]}{" "}
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-400">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">
             {portfolioData.name.split(" ")[1]}
           </span>
         </motion.h1>
@@ -76,7 +79,7 @@ export default function Hero() {
         >
           <a
             href="#projects"
-            className="px-8 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-full font-medium transition-all duration-200 hover:shadow-lg hover:shadow-indigo-500/25"
+            className="px-8 py-3 bg-blue-600 hover:bg-blue-500 text-white rounded-full font-medium transition-all duration-200 hover:shadow-lg hover:shadow-blue-500/25"
           >
             View My Work
           </a>
